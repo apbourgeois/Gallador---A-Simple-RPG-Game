@@ -4,11 +4,7 @@ import quests
 import items
 
 class castle_map(base_map):
-  # img_name = "castle_map.png"
-  # name = 'Castle'
-  # width = 21
-  # height = 21
-  # has_fog = False
+  
   def __init__(self):
     self.name = 'Castle'
     self.img_name = "castle_map.png"
